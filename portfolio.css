@@ -3,6 +3,11 @@
     padding: 0;
     font-family: sans-serif;
 }
+@media  screen and (min_width:576px) and(max_width:768px) {
+    
+} {
+    
+}
 .hero img{
     width: 90px;
     height: 90px;
@@ -70,20 +75,21 @@ span{
     margin-left: 5px;
 
 }
-
+#sec_1{
+    display: flex;
+}
 
 .img img{
     width: 390px;
-    position: absolute;
-    bottom: 0;
-    display: flex;
-    right: 100px;
+   margin: auto;
 
 
   
 }
 .img:hover .bhanu{
-    bottom: 40px;
+    /* bottom: 40px; */
+    transform: translateY(15px);
+    cursor: pointer;
     
 }
 .detel a:hover{
@@ -102,8 +108,9 @@ span{
     width: 20px;
 }
 .tab-titles{
-    margin: 20px 0 40px;
+    /* margin: 20px 0 40px; */
     display: flex;
+    justify-content: space-evenly;
 }
 .tab-links{
     margin-right: 50px;
@@ -111,7 +118,7 @@ span{
     font-weight: 500;
     cursor: pointer;
     position: relative;
-    margin-left: 400px;
+    margin-left: 80px;
 }
 .tab-links::after{
     content: '';
